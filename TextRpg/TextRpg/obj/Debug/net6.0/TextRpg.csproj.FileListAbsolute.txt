@@ -1,0 +1,14 @@
+C:\Users\user\Documents\내배캠\C# 문법 종합반\TextRpg\TextRpg\bin\Debug\net6.0\TextRpg.exe
+C:\Users\user\Documents\내배캠\C# 문법 종합반\TextRpg\TextRpg\bin\Debug\net6.0\TextRpg.deps.json
+C:\Users\user\Documents\내배캠\C# 문법 종합반\TextRpg\TextRpg\bin\Debug\net6.0\TextRpg.runtimeconfig.json
+C:\Users\user\Documents\내배캠\C# 문법 종합반\TextRpg\TextRpg\bin\Debug\net6.0\TextRpg.dll
+C:\Users\user\Documents\내배캠\C# 문법 종합반\TextRpg\TextRpg\bin\Debug\net6.0\TextRpg.pdb
+C:\Users\user\Documents\내배캠\C# 문법 종합반\TextRpg\TextRpg\obj\Debug\net6.0\TextRpg.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Documents\내배캠\C# 문법 종합반\TextRpg\TextRpg\obj\Debug\net6.0\TextRpg.AssemblyInfoInputs.cache
+C:\Users\user\Documents\내배캠\C# 문법 종합반\TextRpg\TextRpg\obj\Debug\net6.0\TextRpg.AssemblyInfo.cs
+C:\Users\user\Documents\내배캠\C# 문법 종합반\TextRpg\TextRpg\obj\Debug\net6.0\TextRpg.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\내배캠\C# 문법 종합반\TextRpg\TextRpg\obj\Debug\net6.0\TextRpg.dll
+C:\Users\user\Documents\내배캠\C# 문법 종합반\TextRpg\TextRpg\obj\Debug\net6.0\refint\TextRpg.dll
+C:\Users\user\Documents\내배캠\C# 문법 종합반\TextRpg\TextRpg\obj\Debug\net6.0\TextRpg.pdb
+C:\Users\user\Documents\내배캠\C# 문법 종합반\TextRpg\TextRpg\obj\Debug\net6.0\TextRpg.genruntimeconfig.cache
+C:\Users\user\Documents\내배캠\C# 문법 종합반\TextRpg\TextRpg\obj\Debug\net6.0\ref\TextRpg.dll
