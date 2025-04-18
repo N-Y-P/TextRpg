@@ -34,10 +34,10 @@ namespace TextRpg
                     ? string.Join(" | ", bonuses)
                     : "보너스 없음";
 
-                // 2) [E] 표시
+                // [E] 표시: 장착 중이면 [E], 아니면 공백
                 var equipMark = item.IsEquipped ? "[E] " : "";
 
-                // 3) 최종 출력
+                // 최종 출력
                 Console.WriteLine(
                     $"- {equipMark}{item.Name} | {bonusText} | {item.Description}"
                 );
@@ -75,10 +75,10 @@ namespace TextRpg
             var ownedItems = ItemDatabase.Items
                                .Where(it => it.IsPurchased)
                                .ToList();
-
-            while(true)
+            while (true)
             {
-                Console.Clear();
+                Console.Clear ();
+
                 Console.ForegroundColor = ConsoleColor.DarkYellow;
                 Console.WriteLine("인벤토리 - 장착 관리\n");
                 Console.ResetColor();
@@ -101,16 +101,21 @@ namespace TextRpg
                         $"{i + 1}. {equipMark}{item.Name} | {bonusText} | {item.Description}"
                     );
                 }
-                Console.WriteLine("\n0. 나가기\n");
-                Console.Write("원하시는 행동을 입력해주세요.\n>> ");
-                string input = Console.ReadLine();
-                if (!int.TryParse(input, out int sel) || sel < 0 || sel > ownedItems.Count)
-                {
-                    Console.WriteLine("잘못된 입력입니다.");
-                    //Console.ReadKey();
-                    continue;
-                }
 
+                Console.WriteLine("\n0. 나가기\n");
+                int sel;
+                while (true) 
+                {
+                    Console.Write("원하시는 행동을 입력해주세요.\n>> ");
+                    string input = Console.ReadLine();
+
+                    if (!int.TryParse(input, out sel) || sel < 0 || sel > ownedItems.Count)
+                    {
+                        Console.WriteLine("잘못된 입력입니다.\n");
+                        continue;
+                    }
+                    break; 
+                }
                 // 0 입력 시 돌아가기
                 if (sel == 0)
                 {
